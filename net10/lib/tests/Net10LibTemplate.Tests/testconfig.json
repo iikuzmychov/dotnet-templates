@@ -1,0 +1,12 @@
+{
+  "$schema": "https://xunit.net/schema/current/xunit.testconfig.schema.json",
+  "xUnit": {
+    "parallelMode": "all",
+    "maxParallelThreads": "2x"
+  },
+  "commandLineOptions": {
+    "coverage": true,
+    "coverage-output-format": "cobertura",
+    "coverage-output": "coverage.cobertura.xml"
+  }
+}
